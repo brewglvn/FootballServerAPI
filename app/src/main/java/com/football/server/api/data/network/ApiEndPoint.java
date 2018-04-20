@@ -18,8 +18,8 @@ public final class ApiEndPoint {
 
     public static final String ENDPOINT_OPEN_SOURCE = BuildConfig.BASE_URL + "/5926c34212000035026871cd";
 
-    public static final String ENDPOINT_USER_AUTHENTICATE =     "http://159.65.238.89:5236/api" + "/users/authenticate";
-    public static final String ENDPOINT_GET_USER =              "http://159.65.238.89:5236/api" + "/users";
+    public static final String ENDPOINT_USER_AUTHENTICATE =     "http://ip:port/api" + "/users/authenticate";
+    public static final String ENDPOINT_GET_USER =              "http://ip:port/api" + "/users";
 
     private ApiEndPoint() {
         // This class is not publicly instantiable
